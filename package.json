@@ -1,0 +1,47 @@
+{
+  "name": "GuardianBot",
+  "version": "2.3.3",
+  "description": "The cleanest Discord Bot around.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/index.js",
+    "lint": "eslint --fix src/**",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "dea",
+    "discord",
+    "bot",
+    "nodejs",
+    "discord.js",
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Luner#0059",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "awesome-electron": "^2.5.0",
+    "colors": "^1.1.2",
+    "danbooru": "^2.0.3",
+    "discord.js": "^11.2.1",
+    "mongodb": "^2.2.33",
+    "patron.js": "^2.5.5",
+    "pluralize": "^7.0.0",
+    "require-all": "^2.2.0"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^3.0.2",
+    "erlpack": "github:hammerandchisel/erlpack",
+    "uws": "^0.14.5"
+  },
+  "devDependencies": {
+    "electron": "1.7.9",
+    "eslint": "^4.10.0"
+  },
+  "eslintIgnore": [
+    "**/*.json"
+  ]
+}
