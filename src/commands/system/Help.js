@@ -23,7 +23,7 @@ class Help extends patron.Command {
   async run(msg, args) {
     if (String.isNullOrWhiteSpace(args.command)) {
       await msg.author.DM(
-        'For all information about command usage view the official documentation: https://iithewither.github.io \n\nThe `' + Constants.data.misc.prefix + 'help <command>` command may be used for view the usage and an example of any command.');
+        'For all information about command usage view the official documentation: https://realpeso.github.io/thonk1/commands/ \n\nThe `' + Constants.data.misc.prefix + 'help <command>` command may be used for view the usage and an example of any command.');
 
       if (msg.channel.type !== 'dm') {
         return msg.createReply('You have been DMed with all the command information!');
