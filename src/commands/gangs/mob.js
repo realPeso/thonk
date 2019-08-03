@@ -17,7 +17,7 @@ class Info extends patron.Command {
     
 
     if (msg.channel.type !== 'dm') {
-      return msg.createReply('The Mob is a gang lead by Peso#1088. Joining isn\'t easy, and the moment is invite-only.');
+      return msg.createReply('The Mob is a gang lead by Peso#1088. Joining isn\'t easy, and at the moment is invite-only.');
     }
   }
 }
