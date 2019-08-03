@@ -14,7 +14,7 @@ class Info extends patron.Command {
 
   async run(msg) {
     const dbGuild = await db.guildRepo.getGuild(msg.guild.id);
-    await msg.author.DM('This Bot is specially designed for the PΛRΛDOX discord. This includes special commmands and cash to make the server feel more life like.');
+    await msg.author.DM('This Bot is specially designed for the IFWM discord. Use the command $help for more assistance with the bot.');
 
     if (msg.channel.type !== 'dm') {
       return msg.createReply('You have been DMed all the information about the ' + msg.client.user.username + ' Cash System!');
