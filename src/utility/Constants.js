@@ -69,7 +69,7 @@ class Constants {
           'RELATIONSHIP_ADD',
           'RELATIONSHIP_REMOVE'
         ],
-        game: '-help',
+        game: '$help',
         prefix: '-',
         botOwner: 'Peso#1088',
         botOwnerID: 336659171258793984
