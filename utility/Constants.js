@@ -21,16 +21,16 @@ class Constants {
       },
 
       links: {
-        botInvite: 'https://discord.gg/D5YnDu2',
-        documentation: 'https://iiTheWither.github.io',
-        serverInvite: 'https://discord.gg/D5YnDu2'
+        botInvite: 'https://discord.gg/',
+        documentation: 'https://realpeso.github.io/thonk1/commands/',
+        serverInvite: 'https://discord.gg/'
       },
 
       messages: {
         jump: [
-          'You were walking down the street when some homeless guy walked up to you, and then as you were giving him 17 cents you see the cracker has {0} worth of extra large socks stacked up behind him, so you jacked them.',
-          'After a nice bust at the local strip club, you were walking home when you spotted Judge Woody, the cracker who busted you last week, sitting on a bench. You decided to jump his fatass, snipe {0} from his wallet, and walk away unharmed.',
-          'You jump some dick that got you in court last month, stole his pants and ran. Turns out those pants were worth {0}.',
+          'You were walking down the street when some homeless guy walked up to you, and then as you were giving him 17 cents you see the guy has {0} worth of extra large socks stacked up behind him, so you jacked them.',
+          'After a nice day at the local club, you were walking home when you spotted Judge Woody, the guy who busted you last week, sitting on a bench. You decided to jump his fatass, snipe {0} from his wallet, and walk away unharmed.',
+          'You jump some idiot that got you in court last month, stole his pants and ran. Turns out those pants were worth {0}.',
           'You decide to waltz over to Compton to show your strength. Fortunately, you found some wallet some guy dropped in a gang fight. The wallet didn\'t have jack inside of it, but the it turns out the leather it was made of was worth {0}.'
         ],
         lottery: [
@@ -69,10 +69,10 @@ class Constants {
           'RELATIONSHIP_ADD',
           'RELATIONSHIP_REMOVE'
         ],
-        game: '$help - GamingBot',
-        prefix: '$',
-        botOwner: 'iiTheWither#2098',
-        botOwnerID: 208105877838888960
+        game: '-help',
+        prefix: '-',
+        botOwner: 'Peso#1088',
+        botOwnerID: 336659171258793984
       },
 
       regexes: {
