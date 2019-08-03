@@ -14,7 +14,7 @@ class Guild {
     };
     this.settings = {
       messageMultiplier: 1,
-      prefix: '$'
+      prefix: '-'
     };
     this.misc = {
       caseNumber: 1
