@@ -70,7 +70,7 @@ class Constants {
           'RELATIONSHIP_REMOVE'
         ],
         game: '$help',
-        prefix: '-',
+        prefix: '$',
         botOwner: 'Peso#1088',
         botOwnerID: 336659171258793984
       },
@@ -78,7 +78,7 @@ class Constants {
       regexes: {
         capitalize: /\w\S*/g,
         escape: /[-[\]{}()*+?.,\\/^$|#\s]/g,
-        prefix: /^\-/
+        prefix: /^\$/
       }
     };
 
