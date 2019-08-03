@@ -78,7 +78,7 @@ class Constants {
       regexes: {
         capitalize: /\w\S*/g,
         escape: /[-[\]{}()*+?.,\\/^$|#\s]/g,
-        prefix: /^\$/
+        prefix: /^\-/
       }
     };
 
