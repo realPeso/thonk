@@ -25,7 +25,7 @@ class JoinGang extends patron.Command {
     const gang = await db.gangRepo.findOne( { $or: [{ members: msg.author.id }, { leaderId: msg.author.id }], $and: [{ guildId: msg.guild.id }] } );
     if (gang !== null) {
       return msg.createErrorReply('You\'re already in a gang.');
-    } else if (args.gang.members.length >= 4) {
+    } else if (args.gang.members.length >= 10) {
       return msg.createErrorReply('Sorry, this gang is too full.');
     }
 
