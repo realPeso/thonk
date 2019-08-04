@@ -372,11 +372,11 @@ class Constants {
       },
 
       stab: {
-        cooldown: 14400000
+        cooldown: 600000
       },
 
       shoot: {
-        cooldown: 14400000
+        cooldown: 600000
       },
 
       fish: {
