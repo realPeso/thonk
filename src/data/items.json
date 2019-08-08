@@ -72,18 +72,10 @@
   {
     "names": ["glock"],
     "type": "gun",
-    "description": "Weakest gun in town. Man up a bit you puss.",
-    "damage": 15,
-    "accuracy": 30,
-    "crateOdds": 40
-  },
-  {
-    "names": ["Glock17"],
-    "type": "gun",
-    "description": "A Glock designed for the Thonks Police Department.",
+    "description": "Thonk Police Department\'s primary firearm.",
     "damage": 100,
     "accuracy": 80,
-    "crateOdds": 0
+    "crateOdds":0
   },
   {
     "names": ["pump action", "pump"],
