@@ -5,9 +5,9 @@ const ModerationService = require('../../services/ModerationService.js');
 class Unmute extends patron.Command {
   constructor() {
     super({
-      names: ['unmute'],
+      names: ['free'],
       groupName: 'moderation',
-      description: 'Unmute any member.',
+      description: 'Free any member.',
       botPermissions: ['MANAGE_ROLES'],
       args: [
         new patron.Argument({
@@ -39,7 +39,7 @@ class Unmute extends patron.Command {
     } else if (welcomerole !== null) {
       await args.member.addRole(welcomerole);
       await args.member.removeRole(role);
-      await msg.createReply('You have successfully unmuted ' + args.member.user.tag + '.');
+      await msg.createReply('You have successfully freed ' + args.member.user.tag + '.');
       await ModerationService.tryInformUser(msg.guild, msg.author, 'unmuted', args.member.user, args.reason);
       return ModerationService.tryModLog(msg.dbGuild, msg.guild, 'Unmute', Constants.data.colors.unmute, args.reason, msg.author, args.member.user);
     }
