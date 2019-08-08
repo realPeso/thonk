@@ -8,9 +8,9 @@ const NoModerator = require('../../preconditions/NoModerator.js');
 class Mute extends patron.Command {
   constructor() {
     super({
-      names: ['mute'],
+      names: ['arrest'],
       groupName: 'moderation',
-      description: 'Mute any member.',
+      description: 'Arrest any member.',
       botPermissions: ['MANAGE_ROLES'],
       args: [
         new patron.Argument({
@@ -49,7 +49,7 @@ class Mute extends patron.Command {
     if (msg.dbGuild.roles.muted === null) {
       return msg.createErrorReply('You must set a muted role with the `' + Constants.data.misc.prefix + 'setmute @Role` command before you can mute users.');
     } else if (args.member.roles.has(msg.dbGuild.roles.muted)) {
-      return msg.createErrorReply('This user is already muted.');
+      return msg.createErrorReply('This user is already imprisoned!.');
     }
 
     if (role === undefined) {
@@ -57,7 +57,7 @@ class Mute extends patron.Command {
     }
 
     await args.member.addRole(role);
-    await msg.createReply('You have successfully muted ' + args.member.user.tag + ' for ' + formattedHours + '.');
+    await msg.createReply('You have successfully arrested ' + args.member.user.tag + ' for ' + formattedHours + '.');
     await db.muteRepo.insertMute(args.member.id, msg.guild.id, NumberUtil.hoursToMs(args.hours));
     await ModerationService.tryInformUser(msg.guild, msg.author, 'muted', args.member.user, args.reason);
     return ModerationService.tryModLog(msg.dbGuild, msg.guild, 'Mute', Constants.data.colors.mute, args.reason, msg.author, args.member.user, 'Length', formattedHours);
