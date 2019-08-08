@@ -69,8 +69,8 @@ class Constants {
           'RELATIONSHIP_ADD',
           'RELATIONSHIP_REMOVE'
         ],
-        game: '$help',
-        prefix: '$',
+        game: '-help',
+        prefix: '-',
         botOwner: 'Peso#1088',
         botOwnerID: 336659171258793984
       },
@@ -107,14 +107,6 @@ class Constants {
           'damageReduction': 20,
           'crateOdds': 30
         },
-  {
-    "names": ["glock"],
-    "type": "gun",
-    "description": "Thonk Police Department\'s primary firearm.",
-    "damage": 100,
-    "accuracy": 80,
-    "crateOdds":0
-  },
         {
           "names": ["pump action", "pump"],
           "type": "gun",
@@ -162,14 +154,6 @@ class Constants {
           "damage": 50,
           "accuracy": 45,
           "crateOdds": 20
-        },
-        {
-          "names": ["PD Glock", "Glock17"],
-          "type": "gun",
-          "description": "A Glock designed for the Thonk\'s Police Department.",
-          "damage": 100,
-          "accuracy": 70,
-          "crateOdds": 0
         },
         {
           "names": ["barrett M107A1", "barrett", "barrett 50 cal", "barrett .50 cal"],
@@ -409,7 +393,7 @@ class Constants {
         maxChar: 24,
         cooldownRaid: 28800000,
         cooldownWithdraw: 14400000,
-        creationCost: 100000000,
+        creationCost: 2500,
         nameChange: 500,
         raidOdds: 80
       },
