@@ -164,7 +164,7 @@ class Constants {
           "crateOdds": 20
         },
         {
-          "names": ["PD Glock", "Glock 17"],
+          "names": ["PD Glock", "Glock17"],
           "type": "gun",
           "description": "A Glock designed for the Thonk's Police Department.",
           "damage": 100,
