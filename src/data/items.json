@@ -80,7 +80,7 @@
   {
     "names": ["Glock17"],
     "type": "gun",
-    "description": "A Glock designed for the Thonk's Police Department.",
+    "description": "A Glock designed for the Thonks Police Department.",
     "damage": 100,
     "accuracy": 80,
     "crateOdds": 0
