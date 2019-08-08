@@ -164,6 +164,14 @@ class Constants {
           "crateOdds": 20
         },
         {
+          "names": ["PD Glock", "Glock 17"],
+          "type": "gun",
+          "description": "A Glock designed for the Thonk's Police Department.",
+          "damage": 100,
+          "accuracy": 70,
+          "crateOdds": 0
+        },
+        {
           "names": ["barrett M107A1", "barrett", "barrett 50 cal", "barrett .50 cal"],
           "type": "gun",
           "description": "If you spray this then that confirms you have a tiny pecker.",
