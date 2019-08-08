@@ -72,10 +72,10 @@
   {
     "names": ["glock"],
     "type": "gun",
-    "description": "Thonk Police Department\'s primary firearm.",
+    "description": "Thonk Police.",
     "damage": 100,
     "accuracy": 80,
-    "crateOdds":0
+    "crateOdds": 0
   },
   {
     "names": ["pump action", "pump"],
