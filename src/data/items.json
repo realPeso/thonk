@@ -78,6 +78,14 @@
     "crateOdds": 40
   },
   {
+    "names": ["Glock17"],
+    "type": "gun",
+    "description": "A Glock designed for the Thonk's Police Department.",
+    "damage": 100,
+    "accuracy": 80,
+    "crateOdds": 0
+  },
+  {
     "names": ["pump action", "pump"],
     "type": "gun",
     "description": "Get those niggers off your lawn, *wait that was racist, fuck*.",
@@ -109,14 +117,6 @@
     "accuracy": 50,
     "crateOdds": 25
   },
-   {
-          "names": ["PD Glock", "Glock17"],
-          "type": "gun",
-          "description": "A Glock designed for the Thonk's Police Department.",
-          "damage": 100,
-          "accuracy": 70,
-          "crateOdds": 0
-   },
   {
     "names": ["ak-47", "ak47"],
     "type": "gun",
