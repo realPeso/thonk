@@ -70,7 +70,7 @@
     "health": 50
   },
   {
-    "names": ["glock"],
+    "names": ["glock17"],
     "type": "gun",
     "description": "Thonk Police.",
     "damage": 100,
