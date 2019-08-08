@@ -110,7 +110,7 @@ class Constants {
         {
           'names': ['glock'],
           'type': 'gun',
-          'description': 'Weakest gun in town. Man up a bit you puss.',
+          'description': 'Weakest gun in town.',
           'damage': 15,
           'accuracy': 30,
           'crateOdds': 40
@@ -166,7 +166,7 @@ class Constants {
         {
           "names": ["PD Glock", "Glock17"],
           "type": "gun",
-          "description": "A Glock designed for the Thonk's Police Department.",
+          "description": "A Glock designed for the Thonk\'s Police Department.",
           "damage": 100,
           "accuracy": 70,
           "crateOdds": 0
