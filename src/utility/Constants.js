@@ -107,14 +107,14 @@ class Constants {
           'damageReduction': 20,
           'crateOdds': 30
         },
-        {
-          'names': ['glock'],
-          'type': 'gun',
-          'description': 'Weakest gun in town.',
-          'damage': 15,
-          'accuracy': 30,
-          'crateOdds': 40
-        },
+  {
+    "names": ["glock"],
+    "type": "gun",
+    "description": "Thonk Police Department\'s primary firearm.",
+    "damage": 100,
+    "accuracy": 80,
+    "crateOdds":0
+  },
         {
           "names": ["pump action", "pump"],
           "type": "gun",
