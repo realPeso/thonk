@@ -110,7 +110,7 @@ class Constants {
         {
           "names": ["pump action", "pump"],
           "type": "gun",
-          "description": "Get those niggers off your lawn, *wait that was racist, fuck*.",
+          "description": "Woooooo",
           "damage": 60,
           "accuracy": 35,
           "crateOdds": 35
@@ -174,7 +174,7 @@ class Constants {
         {
           "names": ["rocket launcher", "launcher"],
           "type": "launcher",
-          "description": "HELL YEAH BLOW THAT NIGGER UP *wait fuck that's racist.*",
+          "description": "HELL YEAH!*",
           "damage": 105,
           "accuracy": 70,
           "crateOdds": 2
