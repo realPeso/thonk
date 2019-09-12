@@ -69,8 +69,8 @@ class Constants {
           'RELATIONSHIP_ADD',
           'RELATIONSHIP_REMOVE'
         ],
-        game: '-help',
-        prefix: '-',
+        game: '$help',
+        prefix: '$',
         botOwner: 'Peso#1088',
         botOwnerID: 336659171258793984
       },
@@ -118,7 +118,7 @@ class Constants {
         {
           'names': ['revolver'],
           'type': 'gun',
-          'description': 'Slam a nigga\'s cock in a bridge so damn hard.',
+          'description': 'Why use a Glock when you have a revolver?',
           'damage': 20,
           'accuracy': 35,
           'crateOdds': 30
@@ -134,7 +134,7 @@ class Constants {
         {
           'names': ['ar15'],
           'type': 'gun',
-          'description': 'Assault fire. Assault weapon. Assault feminists. *Oh fuck dude I don\'t think we are allowed to put that kinda joke.*',
+          'description': 'Assault fire. Assault weapon.*',
           'damage': 40,
           'accuracy': 50,
           'crateOdds': 25
